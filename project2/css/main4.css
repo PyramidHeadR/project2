@@ -1,0 +1,183 @@
+header {
+  height: 100vh;
+  background-image: url("../img/wall.jpg");
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex; }
+  header .titleBlock {
+    text-align: center;
+    margin: auto; }
+    header .titleBlock h1 {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #000;
+      font-size: 90px; }
+    header .titleBlock p {
+      color: #000;
+      font-size: 30px;
+      line-height: 1px; }
+
+nav {
+  height: 80px;
+  line-height: 20px;
+  margin-top: 40px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  nav .logo {
+    float: left; }
+  nav .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    nav .menu li {
+      display: inline-block;
+      padding: 0 25px; }
+      nav .menu li span {
+        color: #000; }
+      nav .menu li a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.5);
+        text-transform: uppercase; }
+      nav .menu li button {
+        padding: 5px 10px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        position: relative;
+        z-index: 1;
+        transition: all 0.5s;
+        overflow: hidden; }
+        nav .menu li button:after {
+          content: "";
+          position: absolute;
+          bottom: -110px;
+          left: -40px;
+          width: 150%;
+          height: 280%;
+          background-color: #fff;
+          transition: all 0.5s;
+          z-index: -1;
+          transform: rotateZ(20deg); }
+        nav .menu li button:hover {
+          color: #000; }
+          nav .menu li button:hover:after {
+            bottom: -20px; }
+
+.advantages_s {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .advantages_s .item {
+    text-align: center;
+    margin-bottom: 30px; }
+    .advantages_s .item i {
+      font-size: 100px;
+      color: grey; }
+    .advantages_s .item h5 {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 30px 0; }
+    .advantages_s .item p {
+      line-height: 20px;
+      padding: 0 40px;
+      color: rgba(0, 0, 0, 0.6); }
+
+.advantages2_2 {
+  padding: 60px 0;
+  background-image: url("../img/wall2.jpg"); }
+  .advantages2_2 .item {
+    background-color: #FFF;
+    padding-top: 45px; }
+    .advantages2_2 .item h4 {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 50px;
+      margin-bottom: 25px; }
+    .advantages2_2 .item p {
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 50px; }
+    .advantages2_2 .item button {
+      width: 100%;
+      height: 50px;
+      background-color: #000;
+      margin: 0;
+      color: #fff;
+      border: none;
+      transition: all 0.5s;
+      z-index: 1;
+      position: relative;
+      overflow: hidden; }
+      .advantages2_2 .item button:after {
+        content: "";
+        position: absolute;
+        bottom: -220px;
+        left: -40px;
+        width: 120%;
+        height: 300%;
+        background-color: #fff;
+        transition: all 0.5s;
+        z-index: -1;
+        transform: rotateZ(15deg); }
+      .advantages2_2 .item button:hover {
+        color: #000; }
+        .advantages2_2 .item button:hover:after {
+          bottom: -50px; }
+
+.gallery_s .col-md-3 {
+  padding: 0; }
+.gallery_s .item {
+  position: relative; }
+  .gallery_s .item:hover .overlay {
+    height: 100%; }
+    .gallery_s .item:hover .overlay .descrBlock {
+      opacity: 1; }
+  .gallery_s .item .overlay {
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+    .gallery_s .item .overlay .descrBlock {
+      opacity: 0;
+      transition: all 0.3s;
+      margin: auto;
+      text-align: center;
+      position: relative; }
+      .gallery_s .item .overlay .descrBlock a {
+        text-decoration: none;
+        color: #fff;
+        padding: 4% 39%;
+        background-color: rgba(0, 0, 0, 0.7); }
+    .gallery_s .item .overlay h6 {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .gallery_s .item .overlay p {
+      font-size: 12px;
+      color: #fff; }
+
+footer .endFooter {
+  background-color: #000;
+  padding: 30px 0;
+  color: #fff; }
+  footer .endFooter p {
+    font-size: 15px; }
+  footer .endFooter i {
+    float: right;
+    margin: 0 20px; }
+
+/*# sourceMappingURL=main4.css.map */

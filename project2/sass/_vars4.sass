@@ -1,0 +1,30 @@
+$main_color: #e84545
+$dark_color: #30334d
+
+
+=btn($p)
+	padding: $p
+	background-color: #000
+	color: #fff
+	border: none
+	text-transform: uppercase
+	font-weight: 700
+	position: relative
+	z-index: 1
+	transition: all .5s
+	overflow: hidden
+	&:after
+		content: ''
+		position: absolute
+		bottom: -110px
+		left: -40px
+		width: 150%
+		height: 280%
+		background-color: #fff
+		transition: all .5s
+		z-index: -1
+		transform: rotateZ(20deg)
+	&:hover
+		color: #000
+		&:after
+			bottom: -20px
